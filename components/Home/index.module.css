@@ -1,0 +1,150 @@
+.details {
+    z-index: 22;
+    position: absolute;
+    top: 240px;
+    left: 60px;
+}
+
+.details .placeBox {
+    height: 46px;
+    overflow: hidden;
+}
+
+.details .placeBox .text {
+    padding-top: 16px;
+    font-size: 20px;
+}
+
+.details .placeBox .text:before {
+    top: 0;
+    left: 0;
+    position: absolute;
+    content: "";
+    width: 30px;
+    height: 4px;
+    border-radius: 99px;
+    background-color: white;
+}
+
+.details .title1,
+.details .title2 {
+    font-weight: 600;
+    font-size: 72px;
+    font-family: "Oswald", sans-serif;
+}
+
+.details .titleBox1,
+.details .titleBox2 {
+    margin-top: 2px;
+    height: 100px;
+    overflow: hidden;
+}
+
+.details>.desc {
+    margin-top: 16px;
+    width: 500px;
+}
+
+.details>.cta {
+    width: 500px;
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.details>.cta>.bookmark {
+    border: none;
+    background-color: #ecad29;
+    width: 36px;
+    height: 36px;
+    border-radius: 99px;
+    color: white;
+    display: grid;
+    place-items: center;
+}
+
+.details>.cta>.bookmark svg {
+    width: 20px;
+    height: 20px;
+}
+
+.details>.cta>.discover {
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    height: 36px;
+    border-radius: 99px;
+    color: #ffffff;
+    padding: 4px 24px;
+    font-size: 12px;
+    margin-left: 16px;
+    text-transform: uppercase;
+}
+
+.pagination {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    display: inline-flex;
+}
+
+.pagination>.arrow {
+    z-index: 60;
+    width: 50px;
+    height: 50px;
+    border-radius: 999px;
+    border: 2px solid #ffffff55;
+    display: grid;
+    place-items: center;
+}
+
+.pagination>.arrow:nth-child(2) {
+    margin-left: 20px;
+}
+
+.pagination>.arrow svg {
+    width: 24px;
+    height: 24px;
+    stroke-width: 2;
+    color: #ffffff99;
+}
+
+.pagination .progressSubContainer {
+    margin-left: 24px;
+    z-index: 60;
+    width: 500px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.pagination .progressSubContainer .progressSubBackground {
+    width: 500px;
+    height: 3px;
+    background-color: #ffffff33;
+}
+
+.pagination .progressSubContainer .progressSubBackground .progressSubForeground {
+    height: 3px;
+    background-color: #ecad29;
+}
+
+.pagination .slideNumbers {
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    z-index: 60;
+    position: relative;
+}
+
+.pagination .slideNumbers .item {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    color: white;
+    top: 0;
+    left: 0;
+    display: grid;
+    place-items: center;
+    font-size: 32px;
+    font-weight: bold;
+}
