@@ -2,6 +2,11 @@ This is a [Next.js](https://nextjs.org/) app with [Gsap](https://gsap.com/) exam
 
 The original vanilla html/css/javascript code was taken from [elidotco](https://github.com/elidotco).
 
+[DEMO here](https://nextjs-gsap-animated-hero.vercel.app/)
+
+## TODO
+- responsive
+
 ## Getting Started
 
 1. Install dependencies
